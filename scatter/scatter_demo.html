@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style> </style>
+</head>
+<body>
+<div id = "scatter_plot" style="width: 550px; height: 350px; border: 1px solid #ccc;"> </div>
+
+<script type="text/javascript" src="../js/d3.v3.js"></script>
+<script type="text/javascript" src="draw_scatter.js"></script>
+<script>
+    position = [
+        [141.18434183618717,-77.90855711097997],
+        [-153.19184911569857,-195.49253473564215],
+        [172.86474210913184,256.3134079966568],
+        [477.2258621546258,-253.72345827605128],
+        [-513.5407890521293,175.12063905210576],
+        [-118.49113719349741,147.55213425362678]
+    ];
+    label = [0,0,1,1,2,0];
+    draw_scatter(position,label,"#scatter_plot")
+
+</script>
+</body>
+</html>
